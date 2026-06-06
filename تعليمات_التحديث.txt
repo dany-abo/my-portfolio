@@ -1,0 +1,119 @@
+🔄 كيف تتأكد من تحديث البورتفوليو على جميع الأجهزة؟
+
+✅ تم رفع جميع التحديثات على GitHub بنجاح!
+
+📌 المشاريع المضافة:
+1. عيادة التميز (Excellence Clinic)
+2. أكاديمية التراث (Heritage Academy) - https://heritage-academy-wbrr.onrender.com
+3. وكالة NEXT (NEXT Agency) - https://next-4p0j.onrender.com
+4. متتبع المهام الشخصي (Personal Task Tracker) - https://personal-task-tracker-gjst.onrender.com
+
+🔗 رابط المشروع على GitHub:
+https://github.com/dany-abo/my-portfolio
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 خطوات التأكد من التحديث:
+
+1️⃣ تفعيل GitHub Pages (إذا لم يتم بعد):
+   - افتح: https://github.com/dany-abo/my-portfolio/settings/pages
+   - اختر:
+     ✓ Source: Deploy from a branch
+     ✓ Branch: main
+     ✓ Folder: / (root)
+   - اضغط Save
+   - انتظر 2-3 دقائق
+   - رابط موقعك سيكون: https://dany-abo.github.io/my-portfolio
+
+2️⃣ على الأجهزة الأخرى - مسح الذاكرة المؤقتة (Cache):
+
+   🖥️ على Windows:
+   - في Chrome: اضغط Ctrl + Shift + Delete
+   - اختر "Cached images and files"
+   - اضغط "Clear data"
+   أو:
+   - افتح الموقع واضغط Ctrl + F5 (تحديث إجباري)
+
+   📱 على Android:
+   - Chrome: Settings > Privacy > Clear browsing data
+   - اختر "Cached images and files"
+   - اضغط Clear data
+
+   🍎 على iPhone/iPad:
+   - Settings > Safari > Clear History and Website Data
+
+   💻 على Mac:
+   - Safari: Cmd + Option + E
+   - Chrome: Cmd + Shift + Delete
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 إذا كان الموقع مستضاف على منصة أخرى:
+
+🌐 Netlify:
+   - افتح: https://app.netlify.com/
+   - اذهب إلى موقعك
+   - اضغط "Trigger deploy" > "Deploy site"
+
+🌐 Vercel:
+   - افتح: https://vercel.com/
+   - اذهب إلى مشروعك
+   - سيتم التحديث تلقائياً بعد كل Push على GitHub
+
+🌐 Render:
+   - افتح: https://dashboard.render.com/
+   - اذهب إلى خدمتك
+   - اضغط "Manual Deploy" > "Deploy latest commit"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ للتحقق من التحديث:
+
+1. افتح الموقع على الجهاز الآخر
+2. اضغط F12 (لفتح Developer Tools)
+3. اذهب إلى تبويب "Console"
+4. اكتب: document.lastModified
+5. إذا كان التاريخ حديث، فالموقع محدث ✓
+
+أو:
+
+1. افتح الموقع
+2. اذهب لقسم Projects (المشاريع)
+3. تحقق من وجود:
+   ✓ مشروع Personal Task Tracker
+   ✓ روابط Live Demo لجميع المشاريع
+   ✓ صور المشاريع الأربعة
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 آخر commit تم رفعه:
+Commit: "Force update: Ensure all project links and images are live"
+Date: اليوم
+Branch: main
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 نصائح مهمة:
+
+1. بعد كل تحديث على GitHub، انتظر 2-3 دقائق قبل التحقق
+2. امسح الذاكرة المؤقتة (Cache) دائماً عند عدم ظهور التحديثات
+3. استخدم "Incognito/Private Mode" للتأكد من التحديث
+4. تأكد من أنك تفتح الرابط الصحيح للموقع
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ إذا لم يعمل:
+
+1. تأكد من تفعيل GitHub Pages
+2. تأكد من اختيار branch: main
+3. تحقق من عدم وجود أخطاء في Console
+4. جرب فتح الموقع في متصفح آخر
+5. جرب فتح الموقع على جهاز لم تفتحه فيه من قبل
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ كل شيء جاهز الآن!
+
+لأي مساعدة إضافية، يمكنك التواصل أو فتح issue على GitHub.
+
+تاريخ آخر تحديث: 6 يونيو 2026
