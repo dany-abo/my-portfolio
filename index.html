@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dany Abo Asaly - Front End Developer specializing in building modern, responsive websites with React, JavaScript, and cutting-edge technologies">
+    <meta name="keywords" content="Front End Developer, React, JavaScript, HTML, CSS, Web Development, Dany Abo Asaly, UI Development">
+    <meta name="author" content="Dany Abo Asaly">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Dany Abo Asaly - Front End Developer">
+    <meta property="og:description" content="Front End Developer specializing in React and modern web technologies">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/2563eb/ffffff?text=Dany+Abo+Asaly">
+    <meta property="og:type" content="website">
+    
+    <title>Dany Abo Asaly - Front End Developer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="file_00000000a27871fdb83654bc1fa5154e.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Dany Abo Asaly",
+      "jobTitle": "Front End Developer",
+      "email": "anasdany71@gmail.com",
+      "telephone": "+963-983915675",
+      "sameAs": [
+        "https://github.com/dany-abo"
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button id="langBtn" onclick="toggleLanguage()">
+            <i class="fas fa-globe"></i>
+            <span id="langText">AR</span>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home" data-en="Dany" data-ar="داني">Dany</a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#about" class="nav-link" data-en="About" data-ar="عني">About</a></li>
+                <li><a href="#skills" class="nav-link" data-en="Skills" data-ar="المهارات">Skills</a></li>
+                <li><a href="#experience" class="nav-link" data-en="Experience" data-ar="الخبرات">Experience</a></li>
+                <li><a href="#projects" class="nav-link" data-en="Projects" data-ar="المشاريع">Projects</a></li>
+                <li><a href="#education" class="nav-link" data-en="Education" data-ar="التعليم">Education</a></li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-ar="تواصل">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-greeting" data-en="Hello, I'm" data-ar="مرحباً، أنا">Hello, I'm</span>
+                    <h1 class="hero-name">Dany Abo Asaly</h1>
+                    <h2 class="hero-title">
+                        <span class="typing-text" data-en="Front End Developer" data-ar="مطور واجهات أمامية">Front End Developer</span>
+                    </h2>
+                    <p class="hero-description" data-en="I build modern, responsive websites with clean code and great user experiences. Currently learning and growing as a Front End Developer, turning ideas into reality through HTML, CSS, and JavaScript." data-ar="أبني مواقع ويب حديثة ومتجاوبة بكود نظيف وتجارب مستخدم رائعة. أتعلم حالياً وأنمو كمطور واجهات أمامية، أحول الأفكار إلى واقع من خلال HTML و CSS و JavaScript.">
+                        I build modern, responsive websites with clean code and great user experiences. Currently learning and growing as a Front End Developer, turning ideas into reality through HTML, CSS, and JavaScript.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-briefcase"></i>
+                            <span data-en="View My Work" data-ar="استعرض أعمالي">View My Work</span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i>
+                            <span data-en="Contact Me" data-ar="تواصل معي">Contact Me</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="images/profile.jpg" alt="Dany Abo Asaly">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" data-en="Get to know me" data-ar="تعرف علي">Get to know me</span>
+                <h2 class="section-title" data-en="About Me" data-ar="نبذة عني">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en="I'm Dany Abo Asaly, a passionate Front End Developer focused on creating modern, responsive, and user-friendly websites. My journey in web development started with a curiosity about how websites work, and now I'm building my skills by working on real projects and continuously learning new technologies." data-ar="أنا داني أبو عسلي، مطور واجهات أمامية شغوف مهتم بإنشاء مواقع ويب حديثة ومتجاوبة وسهلة الاستخدام. بدأت رحلتي في تطوير الويب بفضول حول كيفية عمل المواقع، والآن أبني مهاراتي من خلال العمل على مشاريع حقيقية والتعلم المستمر للتقنيات الجديدة.">
+                        I'm Dany Abo Asaly, a passionate Front End Developer focused on creating modern, responsive, and user-friendly websites. My journey in web development started with a curiosity about how websites work, and now I'm building my skills by working on real projects and continuously learning new technologies.
+                    </p>
+                    <p data-en="I work with HTML5, CSS3, and JavaScript to build clean and functional websites. I'm committed to writing quality code and following best practices. Every project is an opportunity for me to learn, grow, and deliver value through web development." data-ar="أعمل مع HTML5 و CSS3 و JavaScript لبناء مواقع ويب نظيفة وعملية. أنا ملتزم بكتابة كود عالي الجودة واتباع أفضل الممارسات. كل مشروع هو فرصة لي للتعلم والنمو وتقديم قيمة من خلال تطوير الويب.">
+                        I work with HTML5, CSS3, and JavaScript to build clean and functional websites. I'm committed to writing quality code and following best practices. Every project is an opportunity for me to learn, grow, and deliver value through web development.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label" data-en="Projects Built" data-ar="مشاريع منجزة">Projects Built</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label" data-en="Technologies" data-ar="تقنيات">Technologies</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label" data-en="Passion" data-ar="شغف">Passion</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label" data-en="Learning" data-ar="التعلم">Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" data-en="What I'm good at" data-ar="ما أتقنه">What I'm good at</span>
+                <h2 class="section-title" data-en="Skills & Expertise" data-ar="المهارات والخبرات">Skills & Expertise</h2>
+            </div>
+            
+            <div class="skills-categories">
+                <!-- Technical Skills -->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        <span data-en="Technical Skills" data-ar="المهارات التقنية">Technical Skills</span>
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">HTML5 / CSS3</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript / ES6+</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">React.js</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Responsive Design</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Git / GitHub</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Tailwind CSS</span>
+                                <span class="skill-percentage">87%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 87%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-users"></i>
+                        <span data-en="Soft Skills" data-ar="المهارات الشخصية">Soft Skills</span>
+                    </h3>
+                    <div class="soft-skills-grid">
+                        <div class="soft-skill-item">
+                            <div class="soft-skill-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <h4 data-en="Communication" data-ar="التواصل الفعال">Communication</h4>
+                            <p data-en="Clear and effective communication with team members and clients" data-ar="تواصل واضح وفعال مع أعضاء الفريق والعملاء">Clear and effective communication with team members and clients</p>
+                        </div>
+                        
+                        <div class="soft-skill-item">
+                            <div class="soft-skill-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4 data-en="Problem Solving" data-ar="حل المشكلات">Problem Solving</h4>
+                            <p data-en="Analytical thinking to find creative solutions to complex challenges" data-ar="تفكير تحليلي لإيجاد حلول إبداعية للتحديات المعقدة">Analytical thinking to find creative solutions to complex challenges</p>
+                        </div>
+                        
+                        <div class="soft-skill-item">
+                            <div class="soft-skill-icon">
+                                <i class="fas fa-users-cog"></i>
+                            </div>
+                            <h4 data-en="Teamwork" data-ar="العمل الجماعي">Teamwork</h4>
+                            <p data-en="Collaborative approach to achieve common goals efficiently" data-ar="نهج تعاوني لتحقيق الأهداف المشتركة بكفاءة">Collaborative approach to achieve common goals efficiently</p>
+                        </div>
+                        
+                        <div class="soft-skill-item">
+                            <div class="soft-skill-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4 data-en="Time Management" data-ar="إدارة الوقت">Time Management</h4>
+                            <p data-en="Prioritizing tasks and delivering projects on schedule" data-ar="تحديد أولويات المهام وتسليم المشاريع في الموعد">Prioritizing tasks and delivering projects on schedule</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" data-en="My Journey" data-ar="رحلتي">My Journey</span>
+                <h2 class="section-title" data-en="Learning & Development" data-ar="التعلم والتطوير">Learning & Development</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date" data-en="2024 - 2026" data-ar="2024 - 2026">2024 - 2026</div>
+                    <div class="timeline-content">
+                        <h3 data-en="Front End Development" data-ar="تطوير الواجهات الأمامية">Front End Development</h3>
+                        <h4 data-en="Self-Learning & Projects" data-ar="تعلم ذاتي ومشاريع">Self-Learning & Projects</h4>
+                        <p class="job-description" data-en="Building real-world projects to master front-end development technologies and best practices." data-ar="بناء مشاريع واقعية لإتقان تقنيات تطوير الواجهات الأمامية وأفضل الممارسات.">
+                            Building real-world projects to master front-end development technologies and best practices.
+                        </p>
+                        <ul class="achievements">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-en="Built 4 complete websites including clinic, academy, agency, and task tracker projects" data-ar="بنيت 4 مواقع كاملة تشمل مشاريع عيادة، أكاديمية، وكالة، ومتتبع مهام">Built 4 complete websites including clinic, academy, agency, and task tracker projects</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-en="Mastered responsive design principles and mobile-first approach" data-ar="أتقنت مبادئ التصميم المتجاوب ونهج الموبايل أولاً">Mastered responsive design principles and mobile-first approach</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-en="Learned version control with Git and GitHub for code management" data-ar="تعلمت التحكم بالإصدارات باستخدام Git و GitHub لإدارة الكود">Learned version control with Git and GitHub for code management</span>
+                            </li>
+                        </ul>
+                        <div class="job-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date" data-en="2024 - 2026" data-ar="2024 - 2026">2024 - 2026</div>
+                    <div class="timeline-content">
+                        <h3 data-en="Web Development Fundamentals" data-ar="أساسيات تطوير الويب">Web Development Fundamentals</h3>
+                        <h4 data-en="Online Learning & Practice" data-ar="تعلم أونلاين وممارسة">Online Learning & Practice</h4>
+                        <p class="job-description" data-en="Started learning web development from scratch through online resources and tutorials." data-ar="بدأت تعلم تطوير الويب من الصفر من خلال الموارد والدروس عبر الإنترنت.">
+                            Started learning web development from scratch through online resources and tutorials.
+                        </p>
+                        <ul class="achievements">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-en="Completed multiple online courses on HTML, CSS, and JavaScript" data-ar="أكملت دورات متعددة عبر الإنترنت في HTML و CSS و JavaScript">Completed multiple online courses on HTML, CSS, and JavaScript</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span data-en="Built practice projects to solidify understanding of core concepts" data-ar="بنيت مشاريع تدريبية لترسيخ فهم المفاهيم الأساسية">Built practice projects to solidify understanding of core concepts</span>
+                            </li>
+                        </ul>
+                        <div class="job-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" data-en="My Work" data-ar="أعمالي المميزة">My Work</span>
+                <h2 class="section-title" data-en="Featured Projects" data-ar="المشاريع">Featured Projects</h2>
+            </div>
+            
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all" data-en="All" data-ar="الكل">All</button>
+                <button class="filter-btn" data-filter="web" data-en="Websites" data-ar="مواقع ويب">Websites</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: Excellence Clinic -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="mywepsite.png" alt="Excellence Clinic">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/dany-abo/my-website" target="_blank" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" onclick="openProjectModal('project-1')">
+                                    <i class="fas fa-info-circle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category" data-en="Website" data-ar="موقع ويب">Website</div>
+                        <h3 class="project-title" data-en="Excellence Clinic" data-ar="عيادة التميز">Excellence Clinic</h3>
+                        <p class="project-description" data-en="Modern medical clinic website with appointment booking, services showcase, and patient information system" data-ar="موقع عيادة طبية حديث مع حجز المواعيد وعرض الخدمات ونظام معلومات المرضى">
+                            Modern medical clinic website with appointment booking, services showcase, and patient information system
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2: Heritage Academy -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="heritage academy.png" alt="Heritage Academy">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://heritage-academy-wbrr.onrender.com" target="_blank" class="project-link" title="View Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/dany-abo/heritage-academy" target="_blank" class="project-link" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category" data-en="Website" data-ar="موقع ويب">Website</div>
+                        <h3 class="project-title" data-en="Heritage Academy" data-ar="أكاديمية التراث">Heritage Academy</h3>
+                        <p class="project-description" data-en="Educational academy website with modern design, course listings, and student information system" data-ar="موقع أكاديمية تعليمية بتصميم حديث، قوائم الدورات ونظام معلومات الطلاب">
+                            Educational academy website with modern design, course listings, and student information system
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3: NEXT Agency -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="next.png" alt="NEXT Agency">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://next-4p0j.onrender.com" target="_blank" class="project-link" title="View Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/dany-abo/---Next" target="_blank" class="project-link" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category" data-en="Website" data-ar="موقع ويب">Website</div>
+                        <h3 class="project-title" data-en="NEXT Agency" data-ar="وكالة NEXT">NEXT Agency</h3>
+                        <p class="project-description" data-en="Professional agency website featuring modern design, service showcase, and interactive portfolio section" data-ar="موقع وكالة احترافي يتميز بتصميم حديث وعرض الخدمات وقسم أعمال تفاعلي">
+                            Professional agency website featuring modern design, service showcase, and interactive portfolio section
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4: Personal Task Tracker -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="Screenshot 2026-06-05 195510.png" alt="Personal Task Tracker">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://personal-task-tracker-gjst.onrender.com" target="_blank" class="project-link" title="View Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/dany-abo/personal-task-tracker" target="_blank" class="project-link" title="View on GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category" data-en="Website" data-ar="موقع ويب">Website</div>
+                        <h3 class="project-title" data-en="Personal Task Tracker" data-ar="متتبع المهام الشخصي">Personal Task Tracker</h3>
+                        <p class="project-description" data-en="Task management web app with dark/light mode, priority levels, categories, and local storage support" data-ar="تطبيق ويب لإدارة المهام مع وضع داكن/فاتح، مستويات أولوية، تصنيفات، ودعم التخزين المحلي">
+                            Task management web app with dark/light mode, priority levels, categories, and local storage support
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" data-en="My Background" data-ar="مسيرتي التعليمية">My Background</span>
+                <h2 class="section-title" data-en="Education & Certifications" data-ar="التعليم والشهادات">Education & Certifications</h2>
+            </div>
+            
+            <div class="education-grid">
+                <!-- Academic Education -->
+                <div class="education-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span data-en="Education" data-ar="التعليم">Education</span>
+                    </h3>
+                    
+                    <div class="education-item">
+                        <div class="education-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="education-content">
+                            <h4 data-en="Front End Development Training" data-ar="تدريب تطوير الواجهات الأمامية">Front End Development Training</h4>
+                            <h5 data-en="Ousos Training Center" data-ar="مركز أوسُس للتدريب">Ousos Training Center</h5>
+                            <span class="education-date" data-en="2024 - 2026" data-ar="2024 - 2026">2024 - 2026</span>
+                            <p data-en="Professional training program in web development covering HTML, CSS, JavaScript, and modern front-end technologies" data-ar="برنامج تدريب احترافي في تطوير الويب يغطي HTML و CSS و JavaScript وتقنيات الواجهات الأمامية الحديثة">Professional training program in web development covering HTML, CSS, JavaScript, and modern front-end technologies</p>
+                        </div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="education-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="education-content">
+                            <h4 data-en="Self-Taught Developer" data-ar="مطور ذاتي التعلم">Self-Taught Developer</h4>
+                            <h5 data-en="Online Resources & Practice" data-ar="موارد أونلاين وممارسة">Online Resources & Practice</h5>
+                            <span class="education-date" data-en="2023 - Present" data-ar="2023 - الآن">2023 - Present</span>
+                            <p data-en="Continuous learning through online courses, documentation, and hands-on projects to expand skills and knowledge" data-ar="التعلم المستمر من خلال الدورات عبر الإنترنت والوثائق والمشاريع العملية لتوسيع المهارات والمعرفة">Continuous learning through online courses, documentation, and hands-on projects to expand skills and knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Learning Resources -->
+                <div class="education-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-laptop-code"></i>
+                        <span data-en="Learning Path" data-ar="مسار التعلم">Learning Path</span>
+                    </h3>
+                    
+                    <div class="certification-item">
+                        <div class="cert-badge">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h4 data-en="HTML & CSS Fundamentals" data-ar="أساسيات HTML و CSS">HTML & CSS Fundamentals</h4>
+                            <p class="cert-issuer" data-en="Ousos Training Center & Self-Learning | 2024" data-ar="مركز أوسُس للتدريب والتعلم الذاتي | 2024">Ousos Training Center & Self-Learning | <span class="cert-date">2024</span></p>
+                        </div>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <div class="cert-badge">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h4 data-en="JavaScript Basics" data-ar="أساسيات JavaScript">JavaScript Basics</h4>
+                            <p class="cert-issuer" data-en="Ousos Training Center & Self-Learning | 2024" data-ar="مركز أوسُس للتدريب والتعلم الذاتي | 2024">Ousos Training Center & Self-Learning | <span class="cert-date">2024</span></p>
+                        </div>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <div class="cert-badge">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="cert-content">
+                            <h4 data-en="Responsive Web Design" data-ar="تصميم الويب المتجاوب">Responsive Web Design</h4>
+                            <p class="cert-issuer" data-en="Ousos Training Center & Self-Learning | 2024" data-ar="مركز أوسُس للتدريب والتعلم الذاتي | 2024">Ousos Training Center & Self-Learning | <span class="cert-date">2024</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" data-en="Get In Touch" data-ar="لنتواصل">Get In Touch</span>
+                <h2 class="section-title" data-en="Contact Me" data-ar="تواصل معي">Contact Me</h2>
+                <p class="section-description" data-en="Have a project in mind? Want to discuss an opportunity? Feel free to reach out!" data-ar="هل لديك مشروع في ذهنك؟ تريد مناقشة فرصة؟ لا تتردد في التواصل!">
+                    Have a project in mind? Want to discuss an opportunity? Feel free to reach out!
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-en="Email" data-ar="البريد الإلكتروني">Email</h4>
+                            <a href="mailto:anasdany71@gmail.com">anasdany71@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-en="Phone" data-ar="الهاتف">Phone</h4>
+                            <a href="tel:+963983915675">+963 983 915 675</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-en="Location" data-ar="الموقع">Location</h4>
+                            <p data-en="Syria" data-ar="سوريا">Syria</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/dany-abo" target="_blank" class="social-link" rel="noopener">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:anasdany71@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+963983915675" class="social-link">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="https://wa.me/963983915675" target="_blank" class="social-link whatsapp-social" rel="noopener">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name" data-en="Full Name" data-ar="الاسم الكامل">Full Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email" data-en="Email Address" data-ar="البريد الإلكتروني">Email Address</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject" data-en="Subject" data-ar="الموضوع">Subject</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message" data-en="Message" data-ar="الرسالة">Message</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            <span data-en="Send Message" data-ar="إرسال الرسالة">Send Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p data-en="&copy; 2024 Dany Abo Asaly. All rights reserved." data-ar="&copy; 2024 داني أبو عسلي. جميع الحقوق محفوظة.">&copy; 2024 Dany Abo Asaly. All rights reserved.</p>
+                <p data-en="Designed & Developed with <i class='fas fa-heart'></i> using HTML, CSS & JavaScript" data-ar="صُمم وطُور بـ <i class='fas fa-heart'></i> باستخدام HTML, CSS & JavaScript">Designed & Developed with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Project Modal Template -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modalBody">
+                <!-- Modal content will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
